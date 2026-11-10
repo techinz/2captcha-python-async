@@ -12,7 +12,7 @@ def get_version():
         return re.search(r'__version__ = ["\'](.*?)["\']', f.read()).group(1)
 
 
-setup(name='2captcha-python',
+setup(name='2captcha-python-async',
       version=get_version(),
       description='Python module for easy integration with 2Captcha API',
       long_description=long_description,
